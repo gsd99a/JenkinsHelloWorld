@@ -51,3 +51,41 @@ To https://github.com/gsd99a/JenkinsHelloWorld.git
 Branch 'master' set up to track remote branch 'master' from 'origin'.
 
 gsd99a@Lokeshwari MINGW64 ~/OneDrive/Desktop/JENKINS (master)
+
+
+
+
+
+
+NGROK INSTALLATION IS REQUIRED TO TUNNEL WEBHOOK IN GITHUT WHICH ONLY TALKS TO THE LINK EXPOSED TO INTERNET.
+
+https://ngrok.com/download
+
+C:\Users\gsd99\Downloads\ngrok-stable-windows-amd64.zip\
+uninstall the zip\
+
+GIVE - THIS COMMAND ------   C:\Users\gsd99\OneDrive\Desktop\JENKINS\ngrok-stable-windows-amd64>ngrok http 8080
+
+FOLLOWING IS THE OUTPUT
+
+C:\Users\gsd99\OneDrive\Desktop\JENKINS\ngrok-stable-windows-amd64>ngrok http 8080
+
+Forwarding                    http://bcc9e7d3b9dc.ngrok.io -> http://localhost:8080                                     
+Forwarding                    https://bcc9e7d3b9dc.ngrok.io -> http://localhost:8080  
+
+
+USE THIS LINK TO CHECK IF ITS OPENING  -  http://bcc9e7d3b9dc.ngrok.io
+
+
+NGROK - uses 4040 - http://localhost:4040/status  --- use this to invoke ngrok
+
+
+
+
+
+
+
+
+
+
+
