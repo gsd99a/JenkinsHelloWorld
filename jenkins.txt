@@ -1,0 +1,53 @@
+java -jar jenkins.war --httpPort=8181
+
+
+
+HelloWorldFromOutSide
+
+localhost:8080/view/GSD/job/hELLOwORLD/build?token=HelloWorldFromOutSide
+
+
+
+gsd99a@Lokeshwari MINGW64 ~/OneDrive/Desktop/JENKINS (master)
+$ git init
+Initialized empty Git repository in C:/Users/gsd99/OneDrive/Desktop/JENKINS/.git/
+
+gsd99a@Lokeshwari MINGW64 ~/OneDrive/Desktop/JENKINS (master)
+$ git add --all
+
+gsd99a@Lokeshwari MINGW64 ~/OneDrive/Desktop/JENKINS (master)
+$ git commit -m "[firstfile] this is my first java file"
+[master (root-commit) a422716] [firstfile] this is my first java file
+ 3 files changed, 5 insertions(+)
+ create mode 100644 HelloWorld.class
+ create mode 100644 HelloWorld.java
+ create mode 100644 jenkins.txt
+
+gsd99a@Lokeshwari MINGW64 ~/OneDrive/Desktop/JENKINS (master)
+$ git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+
+gsd99a@Lokeshwari MINGW64 ~/OneDrive/Desktop/JENKINS (master)
+$ git remote add origin https://github.com/gsd99a/JenkinsHelloWorld.git
+
+gsd99a@Lokeshwari MINGW64 ~/OneDrive/Desktop/JENKINS (master)
+$ git push -u origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 765 bytes | 765.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/gsd99a/JenkinsHelloWorld.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+gsd99a@Lokeshwari MINGW64 ~/OneDrive/Desktop/JENKINS (master)
